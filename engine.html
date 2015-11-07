@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>DryDog Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" <script src='JareUtils.js'></script>
+    <script src='InputManager.js'></script>
+    <script src='AudioManager.js'></script>
+    <script src='FPSMeter.js'></script>
+    <script src='GameLoopManager.js'></script>
+    <script src='jsLesson.js'></script>
+    <style>
+        #screen {
+            display: block;
+            margin: 0 auto;
+            background-color: #ADFFFF;
+        }
+        
+        .fpsmeter {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .fpsmeter p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>DryDog Game</h3>
+    <canvas id='screen' width='800' height='480'></canvas>
+    <div id="fpscontainer"></div>
+</body>
+
+</html>
